@@ -1,0 +1,309 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Roma Antiga – Estudo e Quiz 6º Ano</title>
+    <style>
+         .menu-global {
+        background: linear-gradient(90deg, #1e3a8a, #2563eb);
+        position: sticky;
+        top: 0;
+        z-index: 999;
+        box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+    }
+
+    .menu-global .wrap {
+        max-width: 1000px;
+        margin: 0 auto;
+        padding: 10px 16px;
+        text-align: center;
+    }
+
+    .menu-global nav a {
+        color: #fff;
+        font-weight: 600;
+        text-decoration: none;
+        margin: 0 10px;
+        padding: 6px 10px;
+        display: inline-block;
+        border-radius: 6px;
+        transition: background 0.2s, transform 0.2s;
+    }
+
+    .menu-global nav a:hover {
+        background: rgba(255, 255, 255, 0.15);
+        transform: scale(1.05);
+    }
+        body {
+            font-family: "Segoe UI", Roboto, Arial, sans-serif;
+            background: #ffffff;
+            color: #1f2937;
+            margin: 0;
+            line-height: 1.6;
+        }
+
+        header {
+            background: #fff;
+            border-bottom: 2px solid #e5e7eb;
+            position: sticky;
+            top: 0;
+            z-index: 10;
+        }
+
+        .wrap {
+            max-width: 1000px;
+            margin: 0 auto;
+            padding: 16px;
+        }
+
+        h1,
+        h2,
+        h3 {
+            color: #1e3a8a;
+        }
+
+        .card {
+            background: #f9fafb;
+            border: 1px solid #e5e7eb;
+            border-radius: 12px;
+            padding: 16px;
+            margin: 20px 0;
+        }
+
+        nav a {
+            margin-right: 14px;
+            color: #2563eb;
+            text-decoration: none;
+            font-weight: 600;
+        }
+
+        nav a:hover {
+            text-decoration: underline;
+        }
+
+        img {
+            max-width: 100%;
+            border-radius: 10px;
+            margin-top: 10px;
+        }
+
+        figure {
+            margin: 10px 0;
+            text-align: center;
+        }
+
+        figcaption {
+            font-size: 0.9rem;
+            color: #4b5563;
+        }
+
+        button {
+            background: #2563eb;
+            color: white;
+            border: none;
+            border-radius: 8px;
+            padding: 10px 18px;
+            cursor: pointer;
+            font-size: 1rem;
+            margin-top: 10px;
+        }
+
+        button:hover {
+            background: #1e40af;
+        }
+
+        .result {
+            font-weight: bold;
+            font-size: 1.2rem;
+            color: #065f46;
+            margin-top: 15px;
+        }
+
+        label {
+            display: block;
+            margin: 4px 0;
+        }
+    </style>
+</head>
+
+<body>
+    <header class="menu-global">
+        <div class="wrap">
+            <nav>
+                <a href="index.html">🏠 Portal</a>
+                <a href="roma-antiga.html">🏛️ Roma Antiga</a>
+                <a href="guerras-punicas.html">⚔️ Guerras Púnicas</a>
+                <a href="cultura-sociedade-romana.html">🎨 Cultura e Sociedade</a>
+                <a href="curiosidades.html">💡 Curiosidades</a>
+            </nav>
+        </div>
+    </header>
+    <header>
+        <div class="wrap">
+            <h1>Roma Antiga – Material e Quiz para o 6º Ano</h1>
+            <nav>
+                <a href="#resumo">Resumo</a>
+                <a href="#linha-do-tempo">Linha do Tempo</a>
+                <a href="#tarquinio">Tarquínio</a>
+                <a href="#quiz">Quiz</a>
+            </nav>
+        </div>
+    </header>
+
+    <main class="wrap">
+        <section id="resumo" class="card">
+            <h2>Resumo da Roma Antiga</h2>
+            <p>Roma Antiga começou como uma pequena cidade na península Itálica e se tornou um dos maiores impérios da
+                história. Sua influência chegou à política, à arquitetura, à língua e às leis que usamos até hoje.</p>
+            <figure>
+                <img src="https://upload.wikimedia.org/wikipedia/commons/d/d4/Colosseum_in_Rome%2C_Italy_-_April_2007.jpg"
+                    alt="Coliseu Romano" />
+                <figcaption>O Coliseu, símbolo do Império Romano.</figcaption>
+            </figure>
+        </section>
+
+        <section id="linha-do-tempo" class="card">
+            <h2>Linha do Tempo da Roma Antiga</h2>
+            <ul>
+                <li><b>753 a.C.:</b> Fundação de Roma (lenda de Rômulo e Remo).</li>
+                <li><b>509 a.C.:</b> Fim da Monarquia e início da República.</li>
+                <li><b>27 a.C.:</b> Início do Império com Augusto.</li>
+                <li><b>313 d.C.:</b> Constantino legaliza o Cristianismo.</li>
+                <li><b>476 d.C.:</b> Queda do Império Romano do Ocidente.</li>
+            </ul>
+            <figure>
+                <img src="https://upload.wikimedia.org/wikipedia/commons/1/10/Roman_Empire_Trajan_117AD.png"
+                    alt="Mapa do Império Romano sob Trajano" />
+                <figcaption>Mapa do Império Romano em sua maior expansão (ano 117 d.C.).</figcaption>
+            </figure>
+        </section>
+
+        <section id="tarquinio" class="card">
+            <h2>Por que Tarquínio, o Soberbo, foi expulso?</h2>
+            <p>Tarquínio, o Soberbo, foi o último rei de Roma. Ele governava de forma autoritária e cruel, ignorando o
+                Senado e o povo. Seu filho cometeu um crime contra Lucrécia, uma mulher nobre, o que gerou revolta. O
+                povo se uniu e expulsou o rei, criando a República.</p>
+            <figure>
+                <img src="https://upload.wikimedia.org/wikipedia/commons/8/89/Sextus_Tarquinius_and_Lucretia.jpg"
+                    alt="Lucrécia e Sexto Tarquínio" />
+                <figcaption>A injustiça contra Lucrécia provocou a revolta que acabou com a monarquia.</figcaption>
+            </figure>
+            <figure>
+                <img src="https://upload.wikimedia.org/wikipedia/commons/3/38/Romulus_and_Remus_suckling_the_she-wolf.jpg"
+                    alt="Rômulo e Remo" />
+                <figcaption>Lenda de Rômulo e Remo, fundadores de Roma.</figcaption>
+            </figure>
+        </section>
+
+        <section id="quiz" class="card">
+            <h2>🧠 Quiz: Teste seus conhecimentos!</h2>
+            <p>Responda as 10 perguntas abaixo e veja sua pontuação no final!</p>
+            <form id="quizForm">
+                <ol>
+                    <li>
+                        Quando Roma foi fundada?
+                        <label><input type="radio" name="q1" value="a"> 509 a.C.</label>
+                        <label><input type="radio" name="q1" value="b"> 476 d.C.</label>
+                        <label><input type="radio" name="q1" value="c"> 753 a.C.</label>
+                        <label><input type="radio" name="q1" value="d"> 27 a.C.</label>
+                    </li>
+                    <li>
+                        Quem foram Rômulo e Remo?
+                        <label><input type="radio" name="q2" value="a"> Escravos romanos</label>
+                        <label><input type="radio" name="q2" value="b"> Generais gregos</label>
+                        <label><input type="radio" name="q2" value="c"> Irmãos que, segundo a lenda, fundaram
+                            Roma</label>
+                        <label><input type="radio" name="q2" value="d"> Imperadores do Oriente</label>
+                    </li>
+                    <li>
+                        O que marcou o fim da monarquia em Roma?
+                        <label><input type="radio" name="q3" value="a"> A morte de Júlio César</label>
+                        <label><input type="radio" name="q3" value="b"> A expulsão de Tarquínio, o Soberbo</label>
+                        <label><input type="radio" name="q3" value="c"> A invasão dos bárbaros</label>
+                        <label><input type="radio" name="q3" value="d"> A criação do cristianismo</label>
+                    </li>
+                    <li>
+                        Qual era a principal função do Senado Romano?
+                        <label><input type="radio" name="q4" value="a"> Cuidar dos templos</label>
+                        <label><input type="radio" name="q4" value="b"> Escolher os deuses</label>
+                        <label><input type="radio" name="q4" value="c"> Ajudar a governar e criar leis</label>
+                        <label><input type="radio" name="q4" value="d"> Administrar o exército grego</label>
+                    </li>
+                    <li>
+                        Quem foi o primeiro imperador romano?
+                        <label><input type="radio" name="q5" value="a"> Júlio César</label>
+                        <label><input type="radio" name="q5" value="b"> Augusto (Otávio)</label>
+                        <label><input type="radio" name="q5" value="c"> Nero</label>
+                        <label><input type="radio" name="q5" value="d"> Tarquínio</label>
+                    </li>
+                    <li>
+                        O que eram os patrícios?
+                        <label><input type="radio" name="q6" value="a"> Escravos libertos</label>
+                        <label><input type="radio" name="q6" value="b"> Comerciantes estrangeiros</label>
+                        <label><input type="radio" name="q6" value="c"> Nobres e ricos que tinham poder político</label>
+                        <label><input type="radio" name="q6" value="d"> Trabalhadores rurais</label>
+                    </li>
+                    <li>
+                        Como se chamava o período de paz e prosperidade do Império Romano?
+                        <label><input type="radio" name="q7" value="a"> Paz Grega</label>
+                        <label><input type="radio" name="q7" value="b"> Paz Romana (Pax Romana)</label>
+                        <label><input type="radio" name="q7" value="c"> Guerra Civil</label>
+                        <label><input type="radio" name="q7" value="d"> Idade Média</label>
+                    </li>
+                    <li>
+                        Qual religião se tornou oficial no Império Romano?
+                        <label><input type="radio" name="q8" value="a"> Judaísmo</label>
+                        <label><input type="radio" name="q8" value="b"> Cristianismo</label>
+                        <label><input type="radio" name="q8" value="c"> Mitologia Grega</label>
+                        <label><input type="radio" name="q8" value="d"> Islamismo</label>
+                    </li>
+                    <li>
+                        O que causou a queda do Império Romano do Ocidente?
+                        <label><input type="radio" name="q9" value="a"> Epidemias e guerras internas</label>
+                        <label><input type="radio" name="q9" value="b"> A invasão dos povos bárbaros</label>
+                        <label><input type="radio" name="q9" value="c"> A criação da República</label>
+                        <label><input type="radio" name="q9" value="d"> A morte de Constantino</label>
+                    </li>
+                    <li>
+                        Qual é o principal legado da Roma Antiga para o mundo atual?
+                        <label><input type="radio" name="q10" value="a"> A invenção do papel</label>
+                        <label><input type="radio" name="q10" value="b"> O sistema jurídico e o latim</label>
+                        <label><input type="radio" name="q10" value="c"> As pirâmides e a escrita hieroglífica</label>
+                        <label><input type="radio" name="q10" value="d"> O budismo</label>
+                    </li>
+                </ol>
+                <button type="button" onclick="checkQuiz()">Ver resultado</button>
+                <div id="result" class="result"></div>
+            </form>
+        </section>
+
+        <figure>
+            <img src="https://upload.wikimedia.org/wikipedia/commons/2/2a/Senate_of_the_Roman_Republic.jpg"
+                alt="Senado Romano" />
+            <figcaption>O Senado Romano: símbolo da República e do poder dos cidadãos.</figcaption>
+        </figure>
+    </main>
+
+    <script>
+        function checkQuiz() {
+            const respostas = {
+                q1: "c", q2: "c", q3: "b", q4: "c", q5: "b",
+                q6: "c", q7: "b", q8: "b", q9: "b", q10: "b"
+            };
+            let pontos = 0;
+            for (let q in respostas) {
+                const marcada = document.querySelector(`input[name="${q}"]:checked`);
+                if (marcada && marcada.value === respostas[q]) {
+                    pontos++;
+                }
+            }
+            const total = Object.keys(respostas).length;
+            const resultDiv = document.getElementById("result");
+            resultDiv.innerHTML = `🎉 Você acertou ${pontos} de ${total} perguntas!`;
+        }
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Portal Roma Antiga – História 6º Ano</title>
+    <style>
+        body {
+            font-family: "Segoe UI", Roboto, Arial, sans-serif;
+            background: #ffffff;
+            color: #1f2937;
+            margin: 0;
+            line-height: 1.6;
+        }
+
+        header {
+            text-align: center;
+            background: linear-gradient(135deg, #1e3a8a, #2563eb);
+            color: white;
+            padding: 40px 20px;
+        }
+
+        header h1 {
+            font-size: 2.2rem;
+            margin-bottom: 10px;
+        }
+
+        header p {
+            font-size: 1.1rem;
+            color: #e0e7ff;
+        }
+
+        main {
+            max-width: 1000px;
+            margin: 0 auto;
+            padding: 30px 20px;
+        }
+
+        .menu {
+            display: grid;
+            gap: 24px;
+            grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+        }
+
+        .card {
+            border: 1px solid #e5e7eb;
+            border-radius: 12px;
+            background: #f9fafb;
+            text-align: center;
+            overflow: hidden;
+            transition: transform 0.2s, box-shadow 0.2s;
+        }
+
+        .card:hover {
+            transform: scale(1.03);
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+        }
+
+        .card img {
+            width: 100%;
+            height: 170px;
+            object-fit: cover;
+        }
+
+        .card h2 {
+            color: #1e3a8a;
+            font-size: 1.2rem;
+            margin: 12px 0 8px;
+        }
+
+        .card p {
+            font-size: 0.95rem;
+            color: #4b5563;
+            padding: 0 12px 16px;
+        }
+
+        footer {
+            text-align: center;
+            color: #6b7280;
+            font-size: 0.9rem;
+            margin: 40px 0 20px;
+        }
+
+        a.button {
+            display: inline-block;
+            background: #2563eb;
+            color: #fff;
+            text-decoration: none;
+            padding: 8px 16px;
+            border-radius: 8px;
+            font-weight: 600;
+        }
+
+        a.button:hover {
+            background: #1e40af;
+        }
+
+        .menu-global {
+            background: linear-gradient(90deg, #1e3a8a, #2563eb);
+            position: sticky;
+            top: 0;
+            z-index: 999;
+        }
+
+        .menu-global .wrap {
+            max-width: 1000px;
+            margin: 0 auto;
+            padding: 10px 16px;
+            text-align: center;
+        }
+
+        .menu-global nav a {
+            color: #fff;
+            font-weight: 600;
+            text-decoration: none;
+            margin: 0 10px;
+            padding: 6px 10px;
+            display: inline-block;
+            border-radius: 6px;
+            transition: background 0.2s, transform 0.2s;
+        }
+
+        .menu-global nav a:hover {
+            background: rgba(255, 255, 255, 0.15);
+            transform: scale(1.05);
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- MENU GLOBAL -->
+    <header class="menu-global">
+        <div class="wrap">
+            <nav>
+                <a href="index.html">🏠 Portal</a>
+                <a href="roma-antiga.html">🏛️ Roma Antiga</a>
+                <a href="guerras-punicas.html">⚔️ Guerras Púnicas</a>
+                <a href="cultura-sociedade-romana.html">🎨 Cultura e Sociedade</a>
+                <a href="curiosidades.html">💡 Curiosidades</a>
+            </nav>
+        </div>
+    </header>
+
+    <header>
+        <h1>🌍 Portal Roma Antiga</h1>
+        <p>Aprenda sobre a civilização romana — sua história, guerras e cultura!</p>
+    </header>
+
+    <main>
+        <div class="menu">
+            <div class="card">
+                <img src="uploads/Colosseo_2020.jpg.webp"
+                    alt="Coliseu Romano">
+                <h2>🏛️ Roma Antiga</h2>
+                <p>Descubra como Roma começou, seus reis, a República e o poderoso Império Romano.</p>
+                <a href="roma-antiga.html" class="button">Acessar</a>
+            </div>
+
+            <div class="card">
+                <img src="uploads/Hannibal_traverse_le_Rhône_Henri_Motte_1878.jpg"
+                    alt="Aníbal e os elefantes">
+                <h2>⚔️ Guerras Púnicas</h2>
+                <p>Conheça as batalhas entre Roma e Cartago, e a incrível travessia de Aníbal pelos Alpes.</p>
+                <a href="guerras-punicas.html" class="button">Acessar</a>
+            </div>
+
+            <div class="card">
+                <img src="uploads/250px-Etruscan_Painting_1.jpg"
+                    alt="Pintura etrusca">
+                <h2>🎨 Cultura e Sociedade</h2>
+                <p>Entenda como viviam os romanos, sua arte, religião e contribuições para o mundo moderno.</p>
+                <a href="cultura-sociedade-romana.html" class="button">Acessar</a>
+            </div>
+
+            <div class="card">
+                <img src="uploads/ForumRomano.png"
+                    alt="Maquete do Fórum romano">
+                <h2>💡 Curiosidades</h2>
+                <p>Fatos divertidos e incríveis sobre o dia a dia e as invenções dos romanos.</p>
+                <a href="curiosidades.html" class="button">Acessar</a>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <p>Projeto escolar – História 6º Ano | Feito com ❤️ para aprender sobre Roma Antiga</p>
+    </footer>
+</body>
+
+</html>
